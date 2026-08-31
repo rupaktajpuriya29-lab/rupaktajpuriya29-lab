@@ -4,7 +4,7 @@
 
 > *I don't just want to use technology. I want to understand how it works.*
 
-I'm a 10th-grade student exploring the intersection of **programming, Linux, cybersecurity, creativity, and music**.
+I'm a 9th-grade student exploring the intersection of **programming, Linux, cybersecurity, creativity, and music**.
 
 I'm building my foundations in programming while going deeper into the systems underneath it all. At the same time, I'm exploring creative tools and turning some of my artwork into real-world projects.
 
@@ -105,6 +105,6 @@ That's kind of the point. :3
 
 ### 🌌 `BUILDING IN PUBLIC`
 
-**10th grade → learning → experimenting → building → becoming**
+**9th grade → learning → experimenting → building → becoming**
 
 > *The repository is only the beginning.*
