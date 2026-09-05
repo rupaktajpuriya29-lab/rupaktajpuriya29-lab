@@ -108,3 +108,7 @@ That's kind of the point. :3
 **9th grade → learning → experimenting → building → becoming**
 
 > *The repository is only the beginning.*
+
+And I'll be adding my project links here so if you ever wanna check them out just click the link!
+
+Portfolio - https://rupaktajpuriya29-lab.github.io/My-first-ever-portfolio/
