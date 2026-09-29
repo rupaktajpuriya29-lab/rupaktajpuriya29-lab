@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 80" width="800" height="80">
+  <!-- Blocky / pixel snake that crawls left → right -->
+  <defs>
+    <style>
+      .seg { fill: #1b7f4b; }
+      .seg-light { fill: #5be08f; }
+    </style>
+  </defs>
+
+  <!-- Track line (subtle) -->
+  <line x1="0" y1="40" x2="800" y2="40" stroke="#1b7f4b22" stroke-width="2" stroke-dasharray="4 6"/>
+
+  <!-- Snake body – 12 square segments -->
+  <g id="snake">
+    <!-- head -->
+    <rect x="0" y="28" width="16" height="16" rx="2" fill="#1b7f4b"/>
+    <rect x="2" y="30" width="12" height="12" rx="1" fill="#5be08f"/>
+    <!-- eyes -->
+    <rect x="10" y="32" width="3" height="3" fill="#fff"/>
+    <rect x="10" y="37" width="3" height="3" fill="#fff"/>
+    <rect x="11" y="33" width="1.5" height="1.5" fill="#111"/>
+    <rect x="11" y="38" width="1.5" height="1.5" fill="#111"/>
+    <!-- tongue -->
+    <rect x="16" y="35" width="6" height="2" fill="#e63946">
+      <animate attributeName="width" values="6;2;6" dur="0.6s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- body segments (dark + light stripe) -->
+    <rect class="seg" x="-18" y="28" width="16" height="16" rx="1"/>
+    <rect class="seg-light" x="-16" y="30" width="12" height="12" rx="1"/>
+
+    <rect class="seg" x="-36" y="28" width="16" height="16" rx="1"/>
+    <rect class="seg-light" x="-34" y="30" width="12" height="12" rx="1"/>
+
+    <rect class="seg" x="-54" y="28" width="16" height="16" rx="1"/>
+    <rect class="seg-light" x="-52" y="30" width="12" height="12" rx="1"/>
+
+    <rect class="seg" x="-72" y="28" width="16" height="16" rx="1"/>
+    <rect class="seg-light" x="-70" y="30" width="12" height="12" rx="1"/>
+
+    <rect class="seg" x="-90" y="28" width="16" height="16" rx="1"/>
+    <rect class="seg-light" x="-88" y="30" width="12" height="12" rx="1"/>
+
+    <rect class="seg" x="-108" y="28" width="16" height="16" rx="1"/>
+    <rect class="seg-light" x="-106" y="30" width="12" height="12" rx="1"/>
+
+    <rect class="seg" x="-126" y="28" width="16" height="16" rx="1"/>
+    <rect class="seg-light" x="-124" y="30" width="12" height="12" rx="1"/>
+
+    <rect class="seg" x="-144" y="28" width="16" height="16" rx="1"/>
+    <rect class="seg-light" x="-142" y="30" width="12" height="12" rx="1"/>
+
+    <rect class="seg" x="-162" y="28" width="16" height="16" rx="1"/>
+    <rect class="seg-light" x="-160" y="30" width="12" height="12" rx="1"/>
+
+    <rect class="seg" x="-180" y="28" width="16" height="16" rx="1"/>
+    <rect class="seg-light" x="-178" y="30" width="12" height="12" rx="1"/>
+
+    <!-- tiny tail tip -->
+    <rect class="seg" x="-192" y="32" width="10" height="10" rx="1"/>
+  </g>
+
+  <!-- continuous crawl -->
+  <animateTransform
+    xlink:href="#snake"
+    attributeName="transform"
+    type="translate"
+    from="-200 0"
+    to="1000 0"
+    dur="8s"
+    repeatCount="indefinite"/>
+</svg>
