@@ -104,7 +104,7 @@ That's kind of the point. :3
 I'll be adding my project links here, so if you ever wanna check them out just click the link!
 
 * 🌐 Portfolio - https://rupaktajpuriya29-lab.github.io/My-first-ever-portfolio./
-* 🐍 Wild Snake - https://rupaktajpuriya29-lab.github.io/Wild-Snake/
+* 🐍 Wild Snake - https://snakeyexibition.lovable.app/
 
 <div align="center">
   <img src="train.svg" alt="ASCII train" width="100%" />
